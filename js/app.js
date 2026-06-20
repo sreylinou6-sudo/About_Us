@@ -32,13 +32,13 @@ document.querySelectorAll('section').forEach((section, index) => {
 });
 
 const loveNotes = [
-    "Your smile makes every ordinary day feel extraordinary.",
-    "I choose you today, tomorrow, and every day after.",
-    "You are my favorite hello and my hardest goodbye.",
-    "My love for you grows deeper with every memory we make.",
-    "With you, I am home.",
-    "Every beat of my heart whispers your name.",
-    "Thank you for making love feel effortless and magical."
+    "ស្នាមញញឹមរបស់អូនធ្វើឱ្យបងមានអារម្មណ៍ល្អណាស់💞។",
+    "បងនឹងស្រលាញ់អូនតែ​ ៣ ថ្ងៃទេ គឺ ម្សិលមិញ,ថ្ងៃនេះ និង ថ្ងៃស្អែក!🥰",
+    "បងស្រលាញ់អូនណាស់! អូនសម្លាញ៉!!!",
+    "សេចក្ដីស្រឡាញ់របស់បងចំពោះអូនកាន់តែជ្រាលជ្រៅជាមួយនឹងរាល់ការចងចាំដែលពួកយើងបានបង្កើតវាឡើង😊",
+    "ឱ្យតែមានអូន កន្លែងណាក៏ជាផ្ទះរបស់បងដែរ",
+    "រាល់ពេលបេះដូងបងលោត គឺខ្សឹបហៅឈ្មោះអូនគ្រប់ពេល",
+    "អរគុណអូនសម្លាញ់ដែលធ្វើឱ្យស្នេហាមានអារម្មណ៍ថាមិនបាច់ប្រឹង និងនៅជាមួយបងរហូតណាអូនសម្លាញ់💖💕"
 ];
 
 navToggle.addEventListener('click', () => {
