@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="km">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WLW RELATIONSHIP </title>
+    <title>WLW RELATIONSHIP 💞</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,300..700;1,300..700&family=Siemreap&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -23,18 +23,28 @@
         </audio>
         <ul class="nav-links">
             <li><a href="#home">ទំព័រដើម</a></li>
+            <li><a href="#together">រាប់ពេលវេលា</a></li>
             <li><a href="#story">រឿងរ៉ាវ</a></li>
+            <li><a href="#dates">ដេត</a></li>
+            <li><a href="#milestones">ខួបសំខាន់ៗ</a></li>
             <li><a href="#gallery">រូបភាព</a></li>
+            <li><a href="#reasons">ហេតុផល</a></li>
             <li><a href="#letter">សំបុត្រ</a></li>
             <li><a href="#countdown">ថ្ងៃពិសេស</a></li>
         </ul>
+        <button class="music-btn" id="musicBtn" aria-label="Toggle music">🎵</button>
     </nav>
 
+    <!-- HERO -->
     <section id="home" class="hero">
         <div class="hero-copy">
-            <p class="eyebrow">ការចាប់ផ្តើមរបស់ពួកយើង</p>
+            <p class="eyebrow">ការចាប់ផ្តើមរបស់ពួកយើង · 01.05.2026</p>
             <h1>បេះដូងស្មោះជូនសម្រាប់អូន</h1>
             <p class="hero-text">ទំព័រតូចមួយដើម្បីអបអរសាទរសេចក្ដីស្រឡាញ់ ការចងចាំ និងរាល់ពេលវេលានាពេលអនាគតជាមួយគ្នា។</p>
+            <div class="hero-badge">
+                <span>ស្រលាញ់គ្នាបាន</span>
+                <strong id="heroDays">0 ថ្ងៃ</strong>
+            </div>
             <div class="hero-actions">
                 <a href="#story" class="btn btn-primary">អានរឿងរ៉ាវរបស់ពួកយើង</a>
                 <button id="loveBtn" class="btn btn-secondary">បើកមើលសំបុត្រស្នេហ៍</button>
@@ -48,6 +58,39 @@
         </div>
     </section>
 
+    <!-- LIVE COUNTER: YEAR / MONTH / WEEK / DAY / HOUR / MINUTE / SECOND -->
+    <section id="together" class="section together-section">
+        <div class="section-header">
+            <span>ចាប់ផ្តើមពី ១ ឧសភា ២០២៦ (01.05.2026)</span>
+            <h2>ពេលវេលាដែលយើងស្រលាញ់គ្នា ⏳</h2>
+        </div>
+
+        <div class="counter-grid">
+            <div class="counter-box"><span id="cYears">0</span><small>ឆ្នាំ · Years</small></div>
+            <div class="counter-box"><span id="cMonths">0</span><small>ខែ · Months</small></div>
+            <div class="counter-box"><span id="cWeeks">0</span><small>សប្តាហ៍ · Weeks</small></div>
+            <div class="counter-box"><span id="cDays">0</span><small>ថ្ងៃ · Days</small></div>
+            <div class="counter-box"><span id="cHours">0</span><small>ម៉ោង · Hours</small></div>
+            <div class="counter-box"><span id="cMinutes">0</span><small>នាទី · Minutes</small></div>
+            <div class="counter-box"><span id="cSeconds">0</span><small>វិនាទី · Seconds</small></div>
+        </div>
+
+        <p class="counter-note" id="counterSentence"></p>
+
+        <div class="totals-card">
+            <h3>សរុបទាំងអស់ (Total)</h3>
+            <div class="totals-grid">
+                <div><strong id="tMonths">0</strong><small>ខែ</small></div>
+                <div><strong id="tWeeks">0</strong><small>សប្តាហ៍</small></div>
+                <div><strong id="tDays">0</strong><small>ថ្ងៃ</small></div>
+                <div><strong id="tHours">0</strong><small>ម៉ោង</small></div>
+                <div><strong id="tMinutes">0</strong><small>នាទី</small></div>
+                <div><strong id="tSeconds">0</strong><small>វិនាទី</small></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STORY -->
     <section id="story" class="section story-section">
         <div class="section-header">
             <span>ដំណើរជីវិតស្នេហានៃមនុស្សពីរនាក់</span>
@@ -65,14 +108,95 @@
                 <p>កាលនឹងអូនក្លាហានណាស់ Chat មកញ៉ែបងហើយ​ សុំបងធ្វើសង្សារមុនទៀត​។ កាលនឹងបងអត់ហ៊ានស្រលាញ់អូនទេ ដោយសារអូនរៀនទី១២ ឯបងរៀនឆ្នាំទី៣ ដល់ពេលចឺងទៅ មានអារម្មណ៍ថា បងស្រលាញ់ក្មេង😭 តែដោយសារអូន Cute and ពូកែសម្តីទៀត បងក៍បើកចិត្តស្រលាញ់អូនតែម្តងម៉ង់។💞</p>
             </div>
             <div class="timeline-item">
+                <span class="timeline-date">១ ឧសភា ២០២៦ 💍</span>
+                <h3>ថ្ងៃដែលយើងចាប់ផ្តើមជាសង្សារ</h3>
+                <p>ថ្ងៃនេះហើយ ដែលយើងទាំងពីរក្លាយជាមនុស្សពិសេសរបស់គ្នាទៅវិញទៅមក។ ទោះបីជាយើងនៅឆ្ងាយពីគ្នា តែបេះដូងយើងនៅជិតគ្នាជានិច្ច។</p>
+            </div>
+            <div class="timeline-item">
                 <span class="timeline-date">ក្តីស្រលាញ់របស់បងសម្រាប់អូន💗</span>
                 <h3>បងស្រលាញ់អូនតែ ៣ ថ្ងៃទេ!</h3>
                 <p>៣ ថ្ងៃនឹងគឺ ម្សិលមិញ ថ្ងៃនេះ និង ថ្ងៃស្អែក💞</p>
             </div>
-            
         </div>
     </section>
 
+    <!-- DATING DETAILS WITH IMAGES -->
+    <section id="dates" class="section dates-section">
+        <div class="section-header">
+            <span>ដេតដែលមិនអាចបំភ្លេចបាន</span>
+            <h2>ដំណើរដេតរបស់ពួកយើង 🌸</h2>
+        </div>
+
+        <div class="date-list">
+            <article class="date-card">
+                <div class="date-photo"><img src="images/date-1.jpg" alt="First date" loading="lazy" onerror="this.parentElement.classList.add('no-img')"></div>
+                <div class="date-info">
+                    <span class="date-tag">ដេតទី ១</span>
+                    <h3>ជួបគ្នាលើកដំបូង</h3>
+                    <ul class="date-meta">
+                        <li>📅 កាលបរិច្ឆេទ: ២១/ សីហារ/ 2026</li>
+                        <li>📍 ទីកន្លែង: សៀមរាប</li>
+                        <li>💗 អារម្មណ៍: ភ័យ សប្បាយ និងមិនចង់ឱ្យចប់</li>
+                    </ul>
+                    <p>ពេលដែលយើងជួបគ្នាផ្ទាល់លើកដំបូង បេះដូងបងលោតញាប់ណាស់។ ស្នាមញញឹមរបស់អូនធ្វើឱ្យបងភ្លេចអស់គ្រប់យ៉ាង។</p>
+                </div>
+            </article>
+
+            <article class="date-card reverse">
+                <div class="date-photo"><img src="images/date-2.jpg" alt="Second date" loading="lazy" onerror="this.parentElement.classList.add('no-img')"></div>
+                <div class="date-info">
+                    <span class="date-tag">ដេតទី ២</span>
+                    <h3>ញ៉ាំអាហារជាមួយគ្នា</h3>
+                    <ul class="date-meta">
+                        <li>📅 កាលបរិច្ឆេទ: ១៦​​  / តុលា / 2026</li>
+                        <li>📍 ទីកន្លែង: កំពត</li>
+                        <li>🍽️ ម្ហូបដែលបានញ៉ាំ: ញាំក្តាម បង្គារ</li>
+                    </ul>
+                    <p>ម្ហូបឆ្ងាញ់ជាងនេះ គឺការបានអង្គុយជាមួយអូន។ យើងនិយាយលេងគ្នា សើចគ្នា ហើយពេលវេលាកន្លងទៅលឿនណាស់។</p>
+                </div>
+            </article>
+
+            <article class="date-card">
+                <div class="date-photo"><img src="images/date-3.jpg" alt="Third date" loading="lazy" onerror="this.parentElement.classList.add('no-img')"></div>
+                <div class="date-info">
+                    <span class="date-tag">ដេតទី ៣</span>
+                    <h3>ដើរលេងកន្លែងស្អាតៗ</h3>
+                    <ul class="date-meta">
+                        <li>📅 កាលបរិច្ឆេទ: ២៩ / តុលា / 2026</li>
+                        <li>📍 ទីកន្លែង: សៀមរាប</li>
+                        <li>📸 រូបថតច្រើនបំផុតដែលយើងថតជាមួយគ្នា</li>
+                    </ul>
+                    <p>រាល់ជំហានដែលដើរជាមួយអូន គឺជាការចងចាំដ៏ស្រស់ស្អាត។ យើងថតរូបជាមួយគ្នាច្រើន ដើម្បីរក្សាទុករាល់ពេលវេលានេះ។</p>
+                </div>
+            </article>
+
+            <!-- <article class="date-card reverse">
+                <div class="date-photo"><img src="images/img_4.jpg" alt="Fourth date" loading="lazy" onerror="this.parentElement.classList.add('no-img')"></div>
+                <div class="date-info">
+                    <span class="date-tag">ដេតទី ៤</span>
+                    <h3>ថ្ងៃដែលពិសេសបំផុត</h3>
+                    <ul class="date-meta">
+                        <li>📅 កាលបរិច្ឆេទ: ____ / ____ / 2026</li>
+                        <li>📍 ទីកន្លែង: ______________</li>
+                        <li>🎁 អ្វីដែលបានធ្វើជាមួយគ្នា: ______________</li>
+                    </ul>
+                    <p>ថ្ងៃនេះគឺជាជំពូកដែលបងចូលចិត្តបំផុតក្នុងរឿងស្នេហារបស់យើង។</p>
+                </div>
+            </article> -->
+        </div>
+        <p class="edit-hint">✏️ ប្តូរកាលបរិច្ឆេទ ទីកន្លែង និងរូបភាពក្នុងផ្នែកនេះ ដើម្បីដាក់ព័ត៌មានពិតរបស់ពួកយើង</p>
+    </section>
+
+    <!-- MILESTONES -->
+    <section id="milestones" class="section milestones-section">
+        <div class="section-header">
+            <span>ខួបសំខាន់ៗរបស់យើង</span>
+            <h2>ជំហានស្នេហា 🏆</h2>
+        </div>
+        <div class="milestone-list" id="milestoneList"></div>
+    </section>
+
+    <!-- GALLERY -->
     <section id="gallery" class="section gallery-section">
         <div class="section-header">
             <span>រូបថតដែលសង្សាររបស់បង Send ឲ្យបងមើល!</span>
@@ -80,32 +204,46 @@
         </div>
         <div class="gallery-grid">
             <div class="gallery-item">
-                <img src="images/img_5.JPG" alt="Memory 1">
+                <img src="images/img_5.JPG" alt="Memory 1" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
                 <div class="gallery-overlay">Warm first smile</div>
             </div>
             <div class="gallery-item">
-                <img src="images/img_6.JPG" alt="Memory 2">
+                <img src="images/img_6.JPG" alt="Memory 2" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
                 <div class="gallery-overlay">A perfect date</div>
             </div>
             <div class="gallery-item">
-                <img src="images/img_7.JPG" alt="Memory 3">
+                <img src="images/img_7.JPG" alt="Memory 3" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
                 <div class="gallery-overlay">Joyful moments</div>
             </div>
             <div class="gallery-item">
-                <img src="images/img_4.jpg" alt="Memory 4">
+                <img src="images/img_4.jpg" alt="Memory 4" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
                 <div class="gallery-overlay">Our favorite chapter</div>
             </div>
-            <!-- <div class="gallery-item">
-                <img src="images/photo2.jpg" alt="Memory 5">
-                <div class="gallery-overlay">Memory 5</div>
-            </div>
+            <!-- បន្ថែមរូបភាពថ្មីនៅទីនេះ៖
             <div class="gallery-item">
-                <img src="images/photo3.jpg" alt="Memory 6">
-                <div class="gallery-overlay">Memory 6</div>
+                <img src="images/img_8.jpg" alt="Memory 5">
+                <div class="gallery-overlay">Memory 5</div>
             </div> -->
         </div>
     </section>
 
+    <!-- REASONS -->
+    <section id="reasons" class="section reasons-section">
+        <div class="section-header">
+            <span>ហេតុផលដែលបងស្រលាញ់អូន</span>
+            <h2>ហេតុអ្វីបានជាបងស្រលាញ់អូន? 💖</h2>
+        </div>
+        <div class="reasons-grid">
+            <div class="reason-card"><span>😊</span><h3>ស្នាមញញឹមរបស់អូន</h3><p>ធ្វើឱ្យថ្ងៃដ៏អាក្រក់បំផុតរបស់បងក្លាយជាថ្ងៃដ៏ល្អ។</p></div>
+            <div class="reason-card"><span>🥰</span><h3>អូនគួរឱ្យស្រលាញ់</h3><p>Cute ហើយពូកែសម្តី ធ្វើឱ្យបងបើកចិត្តស្រលាញ់តែម្តង។</p></div>
+            <div class="reason-card"><span>💪</span><h3>អូនក្លាហាន</h3><p>អូនជាអ្នកផ្តើមមុន ហើយបងមិនដែលសោកស្តាយទេ។</p></div>
+            <div class="reason-card"><span>🏡</span><h3>អូនជាផ្ទះរបស់បង</h3><p>ឱ្យតែមានអូន កន្លែងណាក៏ជាផ្ទះរបស់បងដែរ។</p></div>
+            <div class="reason-card"><span>🌙</span><h3>ទោះឆ្ងាយក៏នៅជិត</h3><p>ចម្ងាយមិនអាចបំបែកបេះដូងពីរដែលស្រលាញ់គ្នាបានទេ។</p></div>
+            <div class="reason-card"><span>✨</span><h3>គ្រាន់តែជាអូន</h3><p>ជាខ្លួនឯងរបស់អូន គឺគ្រប់គ្រាន់សម្រាប់បងហើយ។</p></div>
+        </div>
+    </section>
+
+    <!-- LETTER -->
     <section id="letter" class="section letter-section">
         <div class="section-header">
             <span>ពាក្យសម្តីផ្អែមល្ហែម</span>
@@ -117,16 +255,22 @@
         </div>
     </section>
 
+    <!-- COUNTDOWN TO NEXT ANNIVERSARY -->
     <section id="countdown" class="section countdown-section">
         <div class="section-header">
             <span>ថ្ងៃពិសេស</span>
             <h2>ថ្ងៃខួបស្នេហាបន្ទាប់របស់យើង</h2>
+            <p class="countdown-sub" id="nextLabel"></p>
         </div>
         <div class="countdown-grid">
             <div><span id="days">00</span><small>Days</small></div>
             <div><span id="hours">00</span><small>Hours</small></div>
             <div><span id="minutes">00</span><small>Minutes</small></div>
             <div><span id="seconds">00</span><small>Seconds</small></div>
+        </div>
+        <div class="monthsary-card">
+            <span>💗 ខួបខែបន្ទាប់ (Monthsary) ក្នុងរយៈពេល</span>
+            <strong id="monthsaryCountdown">--</strong>
         </div>
     </section>
 
@@ -149,8 +293,8 @@
             </div>
             <div class="footer-links">
                 <a href="#gallery">Memories</a>
-                <a href="#love-letter">Love Letter</a>
-                <a href="#music">Our Song</a>
+                <a href="#letter">Love Letter</a>
+                <a href="#together">Our Time</a>
             </div>
             <div class="footer-quote">
                 ❤️ "Every love story is beautiful, but ours is my favorite."
